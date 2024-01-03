@@ -1,0 +1,36 @@
+/* navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  }
+  
+  .app-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3498db; /* Accent color */
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #3498db; /* Accent color for the cart icon */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .app-name {
+      margin-bottom: 10px;
+    }
+  }
+  

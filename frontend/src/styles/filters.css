@@ -1,0 +1,48 @@
+.filters-wrapper{
+    width: calc(100% - 3rem);
+    padding: 0 1.5rem;
+}
+
+.filters-dropdown{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.mobile-filters{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem 0;
+}
+
+.mobile-filters label{
+    /* width: 10rem; */
+    font-size: 0.8rem;
+}
+.mobile-filters select{
+    max-width: 15rem;
+    min-width: 15rem;
+    outline: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
+.apply-button{
+    width: 10rem;
+    font-size: 0.9rem;
+    border: none;
+    background-color: orange;
+    outline: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    margin-top: 1.3rem;
+}
+
+.apply-button:hover{
+    background-color: rgb(242, 168, 32);
+}
